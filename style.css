@@ -1,0 +1,66 @@
+.container {
+  width: 330px;
+  margin: 0 auto;
+  /*background-color: #00CCFF;*/
+}
+
+.square {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  color: rgba(0, 0, 0, 0.01);
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("http://www.nindb.net/nes/super-mario-bros/img/guide/brickblock.png");
+}
+
+.bigContainer {
+  background-image: url("http://www.mariomayhem.com/fun/smb_level_editor/images/overworld_bg.png");
+  width: 600px;
+  height: 375px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+header {
+  background-image: url("http://www.coryarcangel.com/images/artwork/arcangel-super-mario-clouds.gif");
+  height: 256px;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+#winner {
+  text-align: center;
+}
+
+#brick {
+  background-image: url("http://www.nindb.net/nes/super-mario-bros/img/guide/brickblock.png");
+  height: 52px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 190px;
+}
+
+#reset {
+  float: right;
+  display: inline;
+}
+
+/*#pipe {
+  float: right;
+  padding-bottom: 100px;
+  display: inline;
+  position: absolute;
+}*/
+
+body {
+  font-family: 'VT323';
+}
+
+/*footer {
+  background-image: url("http://www.nindb.net/nes/super-mario-bros/img/guide/brickblock.png");
+  height: 52px;
+  width: 600px;
+  margin: 0 auto;
+}*/
